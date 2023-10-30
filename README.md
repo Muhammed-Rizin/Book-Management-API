@@ -51,6 +51,13 @@ A simple API for managing books, including adding, editing, deleting, and viewin
   - `id` (string): The unique identifier of the book to be deleted.
 - **Response:** No content (204) upon successful deletion.
 
+## API Versioning
+The Book Management API follows a versioning approach to ensure backward compatibility as the API evolves. The current API version is `v1`. All endpoints are prefixed with the version identifier for clarity.
+
+For example, the endpoint for getting all books in the current version is `/api/v1/book/getAll`.
+
+When making requests to the API, ensure that you use the appropriate version prefix to access the desired functionality.
+
 ## Setting Up the Application
 
 1. Clone the repository to your local machine:
